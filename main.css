@@ -4,11 +4,15 @@
     padding: 0;
   }
 
+body {
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
 #header {
     height: 60px;
     display: flex;
     flex-direction: row;
-    background: #eee;
     top: 0;
     justify-content: space-around;
     align-items: center;
@@ -37,3 +41,49 @@
     text-decoration: none;
     color: black;
 }
+
+
+
+#hero {
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero input[type="email"]{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+} 
+
+#hero input[type="submit"]{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    padding: 0;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #f1c40f;
+    font-size: large;
+} 
+
+#hero input[type="submit"]:hover{
+    background-color: orange;
+    transition: background-color 1s;
+}
+
+
+/* #hero #submit {
+    background: #f1c40f;
+    margin-top: 10px;
+    width: 50%;
+    height: 5vh;
+    border: none;
+} */
