@@ -178,3 +178,40 @@ body {
     padding: 0 20px;
     height: 40px;
 }
+
+.product .btn:hover {
+     background-color: orange;
+    transition: background-color 1s;
+}
+
+
+
+#footer{
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#footer > ul , #footer > span { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer > ul{
+    margin: 5px 0;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer span {
+    margin-top: 5px;
+    color: #444;
+    font-size: 0,9em;
+}
