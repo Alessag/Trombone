@@ -51,13 +51,12 @@ body {
 
 @media (max-width: 575px){
     #header {
-        height: 60px;
+        height: 80px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         top: 0;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        /* padding: 0 20px; */
         position: sticky;
         background: rgb(173, 86, 86);
     
@@ -66,18 +65,16 @@ body {
         width: 100%;
         height: 100%;
         max-width: 250px;
-        justify-content: left;
-        /* margin-left: 5px; */
+        justify-content: center;
     }
 
     #header .nav-bar ul {
         display: flex;
         flex-direction: row;
         list-style: none;
-        width: 35vw;
+        width: 100%;
         justify-content: flex-end;
-        font-size: 12px;
-        
+        margin-top: 5px;
     }
 
     #header .nav-bar ul li{
@@ -262,7 +259,7 @@ body {
 
     #pricing .product{
         border: 1px solid black;
-        width: calc(100%/2);
+        width: 300px;
         margin: 10px;
         display: flex;
     }
