@@ -9,6 +9,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/*------------------------------------*    
+                HEADER
+\*------------------------------------*/
+
 #header {
     height: 60px;
     display: flex;
@@ -44,7 +48,9 @@ body {
     color: black;
 }
 
-
+/*------------------------------------*    
+                HERO
+\*------------------------------------*/
 
 #hero {
     height: 200px;
@@ -80,6 +86,10 @@ body {
     transition: background-color 1s;
 }
 
+/*------------------------------------*    
+            FEATURES
+\*------------------------------------*/
+
 #container {
     max-width: 1000px;
     width: 100%;
@@ -89,6 +99,7 @@ body {
 #features {
     margin-top: 30px;
 }
+
 #features .features-items {
     display: flex;
     /* flex-direction: row;
@@ -113,6 +124,9 @@ body {
     padding: 5px;
 }
 
+/*------------------------------------*    
+                HOW ITS WORKS
+\*------------------------------------*/
 
 #how-its-works {
     display: flex;
@@ -126,6 +140,9 @@ body {
     height: 354px;
 }
 
+/*------------------------------------*    
+                PRICING
+\*------------------------------------*/
 
 #pricing {
     display: flex;
@@ -188,7 +205,26 @@ body {
     transition: background-color 1s;
 }
 
+@media (max-width: 575px){
+    #pricing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        flex-direction: column;
+    }
 
+    #pricing .product{
+        border: 1px solid black;
+        width: calc(100%/2);
+        margin: 10px;
+        display: flex;
+    }
+}
+
+/*------------------------------------*    
+                FOOTER
+\*------------------------------------*/
 
 #footer{
     background-color: #ddd;
