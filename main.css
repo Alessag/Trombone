@@ -178,6 +178,14 @@ body {
     height: 354px;
 }
 
+@media (max-width: 575px){
+    #how-its-works > iframe{
+        max-width: 340px;
+        width: 100%;
+        height: 219px;
+    }
+}
+
 /*------------------------------------*    
                 PRICING
 \*------------------------------------*/
