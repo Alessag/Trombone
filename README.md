@@ -1,4 +1,4 @@
 # Trombone
-Responsive Web Design Project about Trombones
+Responsive web design project about Trombones
 
-https://alessag.github.io/Trombone/
+[Demo](https://alessag.github.io/Trombone/)
